@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Day Sign-Up | Miskolci SZC Kandó Kálmán</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 min-h-screen flex flex-col justify-between">
+
+  <!-- Hero Header -->
+  <header class="bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-950 text-white py-10 px-4 relative overflow-hidden shadow-lg">
+    <div class="max-w-3xl mx-auto text-center relative z-10">
+      
+      <!-- Golden Rule Banner -->
+      <div class="inline-block bg-amber-400 text-amber-950 px-5 py-2 rounded-full font-black text-sm sm:text-base tracking-wide uppercase shadow-md mb-4 animate-bounce">
+        🎉 Rule #1: HAVE FUN!! 🎉
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-3">
+        International Day <span class="text-sky-400">@ Kandó</span>
+      </h1>
+      <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto">
+        Share your country's culture, food, and traditions with high school students at <span class="text-white font-semibold underline decoration-sky-400">Miskolci SZC Kandó Kálmán Informatikai Technikum</span> <br> On the second of November!
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-3xl mx-auto px-4 -mt-6 mb-12 relative z-20 w-full flex-grow">
+    
+    <!-- Information Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+      
+      <!-- Meeting & Location -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200/80 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-9 h-9 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base">Location & Meeting</h3>
+          </div>
+          <p class="text-xs text-slate-600 mb-3 leading-relaxed">
+            <strong>School:</strong> Miskolci SZC Kandó Kálmán Informatikai Technikum
+          </p>
+          <div class="bg-amber-50 border border-amber-200 text-amber-900 rounded-xl p-3 text-xs space-y-1.5 mb-4">
+            <div class="flex items-start gap-2">
+              <i class="fa-solid fa-tram text-amber-600 mt-0.5"></i>
+              <p>Please arrive at <strong>Városház tér tram station 10 minutes before</strong> your first class. I will meet you right by the station!</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="https://maps.google.com/?q=Miskolci+SZC+Kand%C3%B3+K%C3%A1lm%C3%A1n+Informatikai+Technikum" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center gap-2 w-full py-2 px-3 bg-emerald-50 text-emerald-700 font-bold rounded-xl border border-emerald-200 hover:bg-emerald-100 transition text-xs">
+          <i class="fa-solid fa-map-location-dot"></i> Open Google Maps Location
+        </a>
+      </div>
+
+      <!-- Mandatory Presentation Info -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200/80 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-9 h-9 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-file-powerpoint"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base">Presentation (Required)</h3>
+          </div>
+          <p class="text-xs text-slate-600 mb-3 leading-relaxed">
+            In <strong>all cases</strong>, you must email your country/culture presentation <strong>at least 24 hours before</strong> the event to:
+          </p>
+          <a href="mailto:libuse@kkszki.hu?subject=International%20Day%20Presentation" 
+             class="block text-center py-2 px-3 bg-purple-50 text-purple-700 border border-purple-200 rounded-xl font-bold text-xs mb-3 hover:bg-purple-100 transition">
+            <i class="fa-solid fa-envelope mr-1"></i> libuse@kkszki.hu
+          </a>
+        </div>
+        <p class="text-[11px] text-slate-500 bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+          <i class="fa-solid fa-laptop text-slate-700 mr-1"></i> We'll put it on the classroom laptop. Bringing your own? Ensure it has an <strong>HDMI port</strong>!
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Form Container -->
+    <div id="formContainer" class="bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200">
+      <div class="border-b border-slate-200 pb-4 mb-6">
+        <h2 class="text-2xl font-extrabold text-slate-900 flex items-center gap-2">
+          <i class="fa-solid fa-user-plus text-blue-600"></i> Presenter Sign-Up Form
+        </h2>
+        <p class="text-slate-500 text-xs sm:text-sm mt-1">Please select 1 to 3 classes (45 mins each, 10 min break in between).</p>
+      </div>
+
+      <!-- Integrated Formspree Endpoint -->
+      <form id="signupForm" action="https://formspree.io/f/xbgdwbjn" method="POST" class="space-y-5">
+        
+        <!-- Personal Details -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Full Name *</label>
+            <input type="text" name="Name" required placeholder="e.g. James Smith" 
+                   class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white transition outline-none text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Country / Culture *</label>
+            <input type="text" name="Country" required placeholder="e.g. Brazil, Japan, Spain" 
+                   class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white transition outline-none text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Email Address *</label>
+            <input type="email" name="Email" required placeholder="name@university.hu, name@gmail.com" 
+                   class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white transition outline-none text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Phone / WhatsApp *</label>
+            <input type="tel" name="Phone" required placeholder="+36 30 123 4567" 
+                   class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white transition outline-none text-sm">
+          </div>
+        </div>
+
+        <!-- Class Slots Checklist -->
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+            Select Class Slots (Pick 1 to 3 classes) *
+          </label>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+            <label class="slot-box cursor-pointer p-3.5 bg-slate-50 border-2 border-slate-200 rounded-2xl flex flex-col justify-between hover:border-blue-400 transition">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-extrabold text-blue-700 uppercase">Class 1</span>
+                <input type="checkbox" name="Classes[]" value="Class 1 (08:55 - 09:40)" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500" onchange="validateSlots()">
+              </div>
+              <div class="text-sm font-bold text-slate-800 mt-2">08:55 - 09:40</div>
+            </label>
+
+            <label class="slot-box cursor-pointer p-3.5 bg-slate-50 border-2 border-slate-200 rounded-2xl flex flex-col justify-between hover:border-blue-400 transition">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-extrabold text-blue-700 uppercase">Class 2</span>
+                <input type="checkbox" name="Classes[]" value="Class 2 (09:50 - 10:35)" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500" onchange="validateSlots()">
+              </div>
+              <div class="text-sm font-bold text-slate-800 mt-2">09:50 - 10:35</div>
+            </label>
+
+            <label class="slot-box cursor-pointer p-3.5 bg-slate-50 border-2 border-slate-200 rounded-2xl flex flex-col justify-between hover:border-blue-400 transition">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-extrabold text-blue-700 uppercase">Class 3</span>
+                <input type="checkbox" name="Classes[]" value="Class 3 (10:45 - 11:30)" class="w-4 h-4 text-blue-600 rounded focus:ring-blue-500" onchange="validateSlots()">
+              </div>
+              <div class="text-sm font-bold text-slate-800 mt-2">10:45 - 11:30</div>
+            </label>
+          </div>
+          <p id="slotError" class="text-xs text-red-500 font-semibold mt-1.5 hidden">* Please select at least 1 class slot.</p>
+        </div>
+
+        <!-- Hardware Selection -->
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Equipment Setup *</label>
+          <select name="Laptop Option" required class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white transition outline-none text-sm">
+            <option value="School Laptop (Will email presentation 24h before)">I will email presentation 24h before to use classroom laptop</option>
+            <option value="Own Laptop with HDMI (Will also email presentation 24h before)">I will bring my own laptop (HDMI confirmed) & email presentation 24h before</option>
+          </select>
+        </div>
+
+        <!-- Submission Notice -->
+        <div class="bg-purple-50 border border-purple-200 p-3.5 rounded-xl text-xs text-purple-900 flex items-start gap-2.5">
+          <i class="fa-solid fa-circle-check text-purple-600 text-base mt-0.5"></i>
+          <div>
+            <strong>Mandatory Requirement:</strong> Remember to email your presentation to <a href="mailto:libuse@kkszki.hu" class="underline font-bold">libuse@kkszki.hu</a> 24 hours prior to International Day!
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitBtn" 
+                class="w-full py-3.5 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-extrabold text-base rounded-xl shadow-lg transition transform active:scale-[0.99] flex items-center justify-center gap-2">
+          <i class="fa-solid fa-paper-plane"></i> Submit Registration
+        </button>
+      </form>
+    </div>
+
+    <!-- Success Confirmation Screen -->
+    <div id="confirmationCard" class="hidden bg-white rounded-3xl p-8 shadow-xl border border-slate-200 text-center">
+      <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-3xl mb-4">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h2 class="text-2xl font-extrabold text-slate-900 mb-2">Registration Submitted! 🎉</h2>
+      <p class="text-slate-600 text-sm mb-6">Your registration details have been sent to us successfully.</p>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-left text-xs sm:text-sm space-y-2 mb-6 max-w-md mx-auto">
+        <p class="font-bold text-slate-800 border-b pb-1">Next Steps:</p>
+        <p>1. Send presentation to <strong class="text-purple-700">libuse@kkszki.hu</strong> at least 24h before the event.</p>
+        <p>2. Meet at <strong class="text-blue-700">Városház tér tram station</strong> 10 minutes before your class.</p>
+        <p>3. <strong>Have fun!! 🎉</strong></p>
+      </div>
+
+      <a href="https://maps.google.com/?q=Miskolci+SZC+Kand%C3%B3+K%C3%A1lm%C3%A1n+Informatikai+Technikum" target="_blank" 
+         class="inline-block py-2.5 px-5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition text-sm">
+        📍 Open School Location in Google Maps
+      </a>
+    </div>
+
+  </main>
+
+  <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs">
+    <p class="font-semibold text-slate-300">International day -- Student project</p>
+  </footer>
+
+  <!-- Submission Logic via Formspree AJAX -->
+  <script>
+    function validateSlots() {
+      const checked = document.querySelectorAll('input[name="Classes[]"]:checked');
+      const err = document.getElementById('slotError');
+      if (checked.length === 0) {
+        err.classList.remove('hidden');
+        return false;
+      }
+      err.classList.add('hidden');
+      return true;
+    }
+
+    const form = document.getElementById('signupForm');
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      if (!validateSlots()) {
+        return;
+      }
+
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner animate-spin"></i> Submitting...';
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          document.getElementById('formContainer').classList.add('hidden');
+          document.getElementById('confirmationCard').classList.remove('hidden');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          alert('Oops! There was a problem submitting your form. Please try again.');
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Submit Registration';
+        }
+      } catch (error) {
+        alert('Network error. Please check your internet connection.');
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Submit Registration';
+      }
+    });
+  </script>
+</body>
+</html>
